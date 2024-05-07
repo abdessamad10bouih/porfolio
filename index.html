@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="responsive.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="./images/logo.png" class="darkLogo" alt="logo" />
+          <img class="respo-img" src="./images/logo_respo.png" />
+          <i id="toggle" class="fa-solid fa-bars fa-2xl"></i>
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#abt">About Me</a></li>
+          <li><a href="#proj">Project</a></li>
+          <li><a href="#cntact">Contact</a></li>
+        </ul>
+        <div class="cv">
+          <a href="./cv/cv.pdf" download>Download CV <i class="fa-regular fa-circle-down"></i></a>
+        </div>
+        <img src="/images/moon.svg" class="sun">
+      </nav>
+      <nav class="respo-nav">
+        <ul>
+          <!-- <li><a href="index.html">Home</a></li>
+          <li><a href="#abt">About Me</a></li>
+          <li><a href="#proj">Project</a></li>
+          <li><a href="#cntact">Contact</a></li> -->
+          <li><a href="./cv/cv.pdf" download="cv.pdf">Download CV</a></li>
+        </ul>
+        <button class="close-nav">X</button>
+      </nav>
+      <section class="hero">
+        <div class="textHero">
+          <h1>
+            Hi, I'm <br />
+            <span id="changing"></span>
+          </h1>
+          <p>
+            Hello, I'm Abdessamad Bouih, a Full Stack Developer with a passion
+            for crafting elegant and intuitive digital experiences. My expertise
+            spans across frontend design and backend development, allowing me to
+            create cohesive and functional solutions. I thrive on solving
+            complex problems and bringing innovative ideas to life. With a
+            strong attention to detail and a commitment to quality, I'm
+            dedicated to delivering projects that not only meet but exceed
+            expectations. Whether it's building a sleek user interface or
+            developing robust backend systems, I approach every task with
+            enthusiasm and a drive for excellence.
+          </p>
+          <div class="icons">
+            <div class="icon">
+              <a href="https://www.facebook.com/abdessamad.rodriguez.52?mibextid=ZbWKwL"><i class="fa-brands fa-facebook fa-lg"></i></a>
+            </div>
+            <div class="icon">
+              <a href="https://www.instagram.com/aosam_2004?igsh=NmFrZDkyeGpxZ3k4"><i class="fa-brands fa-instagram fa-lg"></i></a>
+            </div>
+            <div class="icon">
+              <a href="https://github.com/abdessamad10bouih"><i class="fa-brands fa-github fa-lg"></i></a>
+            </div>
+            <div class="icon">
+              <a href="https://ma.linkedin.com/in/abdessamad-bouih-235b522a9" target="_blank"
+                ><i class="fa-brands fa-linkedin fa-lg"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="imgHero">
+          <img src="./images/Banner.png" alt="" />
+        </div>
+      </section>
+    </header>
+    <!-- skills section -->
+    <section class="skills">
+      <h1>My <span>Skills</span></h1>
+      <div class="skills-container">
+        <div class="skill-icons">
+          <h1><i class="fa-brands fa-html5 fa-2xl"></i></h1>
+          <h2>HTML 5</h2>
+        </div>
+        <div class="skill-icons">
+          <h1><i class="fa-brands fa-js fa-2xl"></i></h1>
+          <h2>JavaScript</h2>
+        </div>
+        <div class="skill-icons">
+          <h1><i class="fa-brands fa-css3-alt fa-2xl"></i></h1>
+          <h2>CSS3</h2>
+        </div>
+        <div class="skill-icons">
+          <h1><i class="fa-brands fa-css3-alt fa-2xl"></i></h1>
+          <h2>CSS3</h2>
+        </div>
+        <div class="skill-icons">
+          <h1><i class="fa-brands fa-python fa-2xl"></i></h1>
+          <h2>Python</h2>
+        </div>
+        <div class="skill-icons">
+          <h1><i class="fa-brands fa-php fa-2xl"></i></h1>
+          <h2>PHP</h2>
+        </div>
+        <div class="skill-icons">
+          <h1><i class="fa-solid fa-database fa-2xl"></i></h1>
+          <h2>Sql</h2>
+        </div>
+        <div class="skill-icons">
+          <h1><i class="fa-brands fa-figma fa-2xl"></i></h1>
+          <h2>Figma</h2>
+        </div>
+      </div>
+    </section>
+    <!-- experience section -->
+    <section class="experiense" id="expe">
+      <h1>My <span>Experience</span></h1>
+      <div class="exp-con">
+        <div class="exp1">
+          <div class="hed">
+            <img src="./images/logoofppt.png" alt="ofppt" />
+            <h1>Trainer at ISTA ouarzazate</h1>
+            <h3>07/09/2023 - Now</h3>
+          </div>
+          <div class="para">
+            <p>
+              I'm a trainer at ISTA Ouarzazate, specializing in software
+              development and design. I guide students through practical
+              learning experiences, teaching them current technologies and
+              industry best practices. My focus is on creating a collaborative
+              and inclusive environment where students can ask questions,
+              experiment, and grow. I aim to equip aspiring professionals with
+              the skills and knowledge to succeed in their careers and inspire
+              the next generation of tech experts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about me section -->
+    <section class="aboutme" id="abt">
+      <div class="aboutImg">
+        <img
+          src="./images/WhatsApp Image 2024-04-29 at 16.47.46.jpeg"
+          alt="abdessamad"
+        />
+      </div>
+      <div class="aboutText">
+        <h1>About Me</h1>
+        <p>
+          Hello, I'm Abdessamad Bouih, a Full Stack Developer with a passion for
+          creating seamless digital experiences. My expertise covers both
+          frontend design and backend development, allowing me to build cohesive
+          solutions that are as visually appealing as they are functional.I love
+          exploring new technologies and finding creative ways to solve complex
+          problems. My approach is driven by a deep understanding of design
+          principles and a commitment to writing clean, maintainable code. I
+          believe that a great user experience starts with solid technical
+          foundations, and I work hard to ensure my projects deliver just that.
+        </p>
+      </div>
+    </section>
+    <!-- projects section  -->
+    <section class="projects" id="proj">
+      <h1>Projects</h1>
+      <div class="projiat">
+        <div class="prj">
+          <div class="projet-img">
+            <img src="./images/projet1.png" alt="" />
+          </div>
+          <div class="projet-text">
+            <h1>01</h1>
+            <h2>Nike landing Page</h2>
+            <p>
+              a modern and engaging landing page for Nike. This page is designed
+              to capture the essence of the Nike brand, featuring sleek design
+              elements, bold imagery, and a dynamic layout. It provides a
+              seamless user experience, guiding visitors through key product
+              features and the latest offerings from Nike. Whether you're
+              interested in athletic wear, footwear, or sports equipment, this
+              landing page has something for everyone. Take a look to see how I
+              blended aesthetics with functionality to create a compelling
+              digital experience.
+            </p>
+            <a href="https://abdessamad10bouih.github.io/nike/"><i class="fa-solid fa-share-from-square fa-lg"></i></a>
+          </div>
+        </div>
+        <div class="prj">
+          <div class="projet-text">
+            <h1>02</h1>
+            <h2>Rolex Landing page</h2>
+            <p>
+              Welcome to the crown jewel of my portfolio: a luxurious landing
+              page for Rolex. This design embodies the timeless elegance and
+              precision craftsmanship synonymous with the Rolex brand. The page
+              is carefully structured to reflect the exclusivity and
+              sophistication of Rolex timepieces, using high-quality imagery,
+              sleek typography, and a classic color palette. Visitors are guided
+              through the rich history of the brand, showcasing iconic watches
+              and highlighting the meticulous attention to detail that sets
+              Rolex apart. Explore this landing page to discover how I
+              encapsulated the allure of one of the world's most prestigious
+              watchmakers.
+            </p>
+            <a href=""><i class="fa-solid fa-share-from-square fa-lg"></i></a>
+          </div>
+          <div class="projet-img">
+            <img src="./images/projet2.png" alt="" />
+          </div>
+        </div>
+        <div class="prj">
+          <div class="projet-img">
+            <img src="./images/projet3.png" alt="" />
+          </div>
+          <div class="projet-text">
+            <h1>03</h1>
+            <h2>PlayStation Landing page</h2>
+            <p>
+              Here's a glimpse into my PlayStation landing page, a vibrant and
+              engaging portal into the gaming world. This design is packed with
+              eye-catching visuals and dynamic elements, reflecting the energy
+              and excitement that PlayStation is known for. The layout
+              seamlessly guides users through the latest games, hardware, and
+              PlayStation exclusives, creating a captivating experience for
+              gamers and fans alike. With intuitive navigation and bold
+              graphics, this landing page truly brings the PlayStation brand to
+              life.
+            </p>
+            <a href=""><i class="fa-solid fa-share-from-square fa-lg"></i></a>
+          </div>
+        </div>
+        <div class="prj">
+          <div class="projet-text">
+            <h1>04</h1>
+            <h2>Nike hero section</h2>
+            <p>
+              Step into the spotlight with my Nike hero section, designed to
+              make a bold impression. This section features a striking visual
+              backdrop that captures the essence of Nike's athletic spirit and
+              innovation. The clean, minimalist design is complemented by
+              powerful imagery and compelling calls to action, drawing users
+              into the heart of the brand. Whether it's showcasing the latest
+              footwear, athletic apparel, or inspiring athletes in action, this
+              hero section sets the tone for an energetic and engaging user
+              experience.
+            </p>
+            <a href=""><i class="fa-solid fa-share-from-square fa-lg"></i></a>
+          </div>
+          <div class="projet-img">
+            <img src="./images/projet4.png" alt="" />
+          </div>
+        </div>
+        <div class="prj">
+          <div class="projet-img">
+            <img src="./images/projet5.png" alt="" />
+          </div>
+          <div class="projet-text">
+            <h1>05</h1>
+            <h2>Meeting website</h2>
+            <p>
+              Introducing my meeting static page, a professional and functional
+              space designed to facilitate effective communication. This page is
+              structured to help users find key information about meetings,
+              including schedules, agendas, and important notes. The design is
+              straightforward and easy to navigate, with clear sections that
+              allow users to quickly access what they need. Whether it's for
+              internal team meetings, client presentations, or project updates,
+              this static page is built to support productivity and keep
+              everyone on the same page. Explore it to see how I've created a
+              user-friendly and organized environment for managing meetings.
+            </p>
+            <a href="https://abdessamad10bouih.github.io/paint/"><i class="fa-solid fa-share-from-square fa-lg"></i></a>
+          </div>
+        </div>
+        <div class="prj">
+          <div class="projet-text">
+            <h1>06</h1>
+            <h2>Rolex website</h2>
+            <p>
+              Welcome to my Rolex page, where luxury and precision meet in a
+              carefully crafted design. This static page is designed to reflect
+              the timeless elegance and heritage of the Rolex brand. The layout
+              is clean and sophisticated, with sections that showcase iconic
+              timepieces, brand history, and the meticulous craftsmanship that
+              defines Rolex. High-quality images and elegant typography create a
+              sense of exclusivity, while intuitive navigation guides users
+              through different collections and features. Take a moment to
+              explore this page and discover how I've brought the essence of
+              Rolex to the digital realm.
+            </p>
+            <a href="https://abdessamad10bouih.github.io/rolex/"><i class="fa-solid fa-share-from-square fa-lg"></i></a>
+          </div>
+          <div class="projet-img">
+            <img src="./images/projet6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- let's talk -->
+    <section class="talk" id="cntact">
+      <div class="talk-form">
+        <form>
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Your website (if exist)" />
+          <textarea
+            cols="30"
+            rows="10"
+            placeholder="How Can I help?"
+          ></textarea>
+          <div class="btn-frm">
+            <button>Get In Touch</button>
+            <div class="icons">
+              <div class="icon">
+                <a href="https://www.facebook.com/abdessamad.rodriguez.52?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+              </div>
+              <div class="icon">
+                <a href="https://www.instagram.com/aosam_2004?igsh=NmFrZDkyeGpxZ3k4" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+              </div>
+              <div class="icon">
+                <a href="https://github.com/abdessamad10bouih" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+              </div>
+              <div class="icon">
+                <a href="https://ma.linkedin.com/in/abdessamad-bouih-235b522a9" target="_blank"
+                  ><i class="fa-brands fa-linkedin fa-lg"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="talk-text">
+        <h1>
+          let's <span>talk</span> for <br />
+          something special
+        </h1>
+        <p>
+          I seek to push the limits of creativity to create high-engaging,
+          user-friendly, and memorable interactive experiences.
+        </p>
+        <div class="links">
+          <h2>
+            <a href="mailto:bouihabdessamad5@gmail.com"
+              >bouihabdessamad5@gmail.com</a
+            >
+          </h2>
+          <h2><a href="tel:+212 679103679">+212 679103679</a></h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="ftr">
+        <img src="./images/logo_white.png" class="ftr-logo"/>
+        <h4>2023-2024 copyrights by Abdessamad Bouih</h4>
+      </div>
+    </footer>
+    <!-- External libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
